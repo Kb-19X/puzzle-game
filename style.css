@@ -152,7 +152,7 @@ body {
   font-family: "Mouse Memoirs", serif;
   font-weight: 400;
   font-style: normal;
-  background-image: url("bg-body.avif");
+  /* background-image: url("bg-body.avif"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

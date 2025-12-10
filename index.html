@@ -1,14 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle Game - Le Taquin</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
   </head>
   <body>
-    <section>
-      <div class="puzzle-container"></div>
-    </section>
+    <main>
+      <h1>Puzzle Game</h1>
+
+      <p class="rules">
+        Cliquez sur une tuile adjacente à l'espace vide pour la déplacer.
+      </p>
+
+      <div id="puzzle-board" class="grid-container"></div>
+
+      <div class="actions">
+        <button id="restart-button">REJOUER</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        <a
+          href="https://github.com/Kb-19X/puzzle-game"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Voir sur GitHub</a
+        >
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
